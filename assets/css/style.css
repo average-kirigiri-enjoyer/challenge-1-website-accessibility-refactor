@@ -19,51 +19,6 @@ body
     background-color: #d9dcd6;
 }
 
-/* sets font, spacing, background colour, and text colour of header content */
-.header
-{
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-/* displays primary header 'Horiseon' as an in-line block element with font size 48 */
-.header h1
-{
-    display: inline-block;
-    font-size: 48px;
-}
-
-/* changes the 'seo' in title 'Horiseon' to a different colour */
-.header h1 .seo
-{
-    color: #d9dcd6;
-}
-
-/* sets font, spacing, text size, and location of secondary headers (website sections) */
-.header div
-{
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-/* defines list style type for unordered lists in the header (of which none exist?) */
-.header div ul
-{
-    list-style-type: none;
-}
-
-/* sets secondary headers (website sections) to be displayed as in-line blocks */
-.header div ul li
-{
-    display: inline-block;
-    margin-left: 25px;
-}
-
 /* sets colour and appearance of links */
 a
 {
@@ -75,17 +30,6 @@ a
 p
 {
     font-size: 16px;
-}
-
-/* defines details for a section containing a marketing meeting image */
-.marketing-meeting-image
-{
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 /* elements assigned to this class will appear on the left of their associated section */
@@ -102,7 +46,63 @@ p
     margin-left: 25px;
 }
 
-/* defines display settings for the three main website sections CHANGE THIS NAME */
+/* sets display settings for content in the header */
+.header
+{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* displays h1 header elements, in this case, the text 'Horiseon', as an in-line block at font size 48 */
+.header h1
+{
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* changes the 'seo' in title 'Horiseon' to a different colour */
+.header h1 .seo
+{
+    color: #d9dcd6;
+}
+
+/* defines display settings of the secondary headers which list website sections */
+.header div
+{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* defines list style type for unordered lists in the header */
+.header div ul
+{
+    list-style-type: none;
+}
+
+/* sets secondary headers (website sections) to be displayed as in-line blocks */
+.header div ul li
+{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* defines details for a section containing a marketing meeting image */
+.marketing-meeting-image
+{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* defines display settings for the main website sections */
 .primary-content-blocks
 {
     width: 75%;
@@ -110,8 +110,8 @@ p
     margin-left: 20px;
 }
 
-/* defines display settings for content within the three main website sections */
-#search-engine-optimization
+/* defines display settings for content in the main website sections */
+.primary-content-section
 {
     margin-bottom: 20px;
     padding: 50px;
@@ -121,62 +121,14 @@ p
     color: #ffffff;
 }
 
-/* COMBINE WITH ABOVE */
-#online-reputation-management
-{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* COMBINE WITH ABOVE */
-#social-media-marketing
-{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* defines display settings for images within the three main website sections */
-#search-engine-optimization img
+/* defines display settings for images in the main website sections */
+.primary-content-section img
 {
     max-height: 200px;
 }
 
-/* COMBINE WITH ABOVE */
-#online-reputation-management img
-{
-    max-height: 200px;
-}
-
-/* COMBINE WITH ABOVE */
-#social-media-marketing img
-{
-    max-height: 200px;
-}
-
-/* defines display settings for h2 headers in three main website sections */
-#search-engine-optimization h2
-{
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* COMBINE WITH ABOVE */
-#online-reputation-management h2
-{
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* COMBINE WITH ABOVE */
-#social-media-marketing h2
+/* defines display settings for h2 headers in the main website sections */
+.primary-content-section h2
 {
     margin-bottom: 20px;
     font-size: 36px;
