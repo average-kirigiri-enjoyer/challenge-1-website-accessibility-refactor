@@ -110,85 +110,6 @@ p
     margin-left: 20px;
 }
 
-/* defines display settings for content within the benefits section */
-.benefits
-{
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-} 
-
-/* defines display settings for content in benefits section (COMBINE THIS ALL WITH ABOVE?) */
-.benefit-lead
-{
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* COMBINE THIS WITH ABOVE */
-.benefit-brand
-{
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* COMBINE THIS WITH ABOVE */
-.benefit-cost
-{
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* defines display settings for benefits section h3 headers */
-.benefit-lead h3
-{
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* COMBINE WITH ABOVE */
-.benefit-brand h3
-{
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* COMBINE WITH ABOVE */
-.benefit-cost h3
-{
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* defines display settings for benefits section images */
-.benefit-lead img
-{
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* COMBINE WITH ABOVE */
-.benefit-brand img
-{
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* COMBINE WITH ABOVE */
-.benefit-cost img
-{
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 /* defines display settings for content within the three main website sections */
 .search-engine-optimization
 {
@@ -259,6 +180,41 @@ p
 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* defines display settings for the benefits sidebar */
+.benefits-sidebar
+{
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+} 
+
+/* defines display settings for content within benefits section (COMBINE THIS ALL WITH ABOVE?) */
+.benefit-details
+{
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* defines display settings for benefits section h3 headers */
+.benefit-details h3
+{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* defines display settings for benefits section images */
+.benefit-details img
+{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 /* defines display settings for footer content */
