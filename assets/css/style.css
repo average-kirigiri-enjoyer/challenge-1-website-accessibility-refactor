@@ -57,7 +57,7 @@ body
     list-style-type: none;
 }
 
-/* sets secondary headers (website sections) to be displayed as in-line blocks*/
+/* sets secondary headers (website sections) to be displayed as in-line blocks */
 .header div ul li
 {
     display: inline-block;
@@ -71,7 +71,7 @@ a
     text-decoration: none;
 }
 
-/* sets standard text font size */
+/* sets standard paragraph text size */
 p
 {
     font-size: 16px;
@@ -88,14 +88,14 @@ p
     background-position: center;
 }
 
-/* elements assigned to this class will appear to the left of their associated section */
+/* elements assigned to this class will appear on the left of their associated section */
 .float-left
 {
     float: left;
     margin-right: 25px;
 }
 
-/* elements assigned to this class will appear to the right of their associated section */
+/* elements assigned to this class will appear on the right of their associated section */
 .float-right
 {
     float: right;
@@ -103,7 +103,7 @@ p
 }
 
 /* defines display settings for the three main website sections CHANGE THIS NAME */
-.content
+.main-sections-content
 {
     width: 75%;
     display: inline-block;
