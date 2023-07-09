@@ -14,7 +14,7 @@ Scroll down to find Horiseon's services listed, along with their product benefit
 
 ## Preview
 
-![Preview of the Horiseon Social Services webpage](assets\images\challenge-1-website-preview.png)
+![Preview of the Horiseon Social Services webpage](assets/images/challenge-1-website-preview.png)
 
 ## License
 
