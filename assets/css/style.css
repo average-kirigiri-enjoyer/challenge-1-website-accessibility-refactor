@@ -121,17 +121,17 @@ p
     color: #ffffff;
 }
 
-/* defines display settings for images in the main website sections */
-.primary-content-section img
-{
-    max-height: 200px;
-}
-
 /* defines display settings for h2 headers in the main website sections */
 .primary-content-section h2
 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* defines display settings for images in the main website sections */
+.primary-content-section img
+{
+    max-height: 200px;
 }
 
 /* defines display settings for the benefits sidebar */
