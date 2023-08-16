@@ -2,7 +2,7 @@
 
 ## Description
 
-Website accessibility is a very important factor to consider in modern web development. In line with that, this project refactors an existing website's code, both to meet modern accessibility standards, and to be more robust, allowing for easier iteration and improvement upon the existing code in future while still maintaining said standards. This is primarily done though adding alternative text to images, changing class & element names to more semantic alternatives, streamlining code, and adding comments. The website itself is a landing page for Horiseon Social Solution Services, which highlights some of their web development offerings, and the benefits of their services
+Website accessibility is a very important factor to consider in modern web development. In line with that, this project refactors an existing website's code, both to meet modern accessibility standards, and to be more robust, allowing for easier iteration and improvement upon the existing code in future while still maintaining said standards. This is primarily done though adding alternative text to images, changing class & element names to more semantic alternatives, streamlining code, and adding comments. The website itself is a landing page for Horiseon Social Solution Services, which highlights some of their web development offerings, and the benefits of their services.
 
 ## Usage
 
